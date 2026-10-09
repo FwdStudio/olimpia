@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ASD Olimpia Caponago – Ginnastica artistica e pilates</title>
-<meta name="description" content="ASD Olimpia a Caponago: corsi di ginnastica artistica, pilates e attività motorie per bambini, ragazzi e adulti.">
+<meta name="description" content="ASD Olimpia a Caponago: corsi 2026-2027 di ginnastica artistica, acrobatica, pilates e fitness.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -57,11 +57,14 @@ h2{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800;margin-bottom:12px}
 .lead{color:var(--muted);max-width:52ch;margin:0 0 34px}
 
 .corsi{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
-.corso{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:26px}
-.corso:nth-child(2){border-radius:60px 22px 22px 22px}
-.corso:nth-child(3){border-radius:22px 22px 60px 22px}
+.corso{background:var(--surface);border:1px solid var(--line);border-top:6px solid var(--c);border-radius:22px;padding:24px 26px}
 .corso h3{font-size:1.4rem;margin-bottom:8px}
 .corso p{margin:0;color:var(--muted)}
+.orari{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:9px}
+.orari li{display:flex;gap:12px;align-items:baseline}
+.gg{background:var(--c);color:#fff;font:700 .78rem "Bricolage Grotesque",sans-serif;padding:3px 0;border-radius:999px;min-width:48px;text-align:center}
+.orari small{display:block;color:var(--muted);font-size:.85rem}
+.info{margin:26px 0 0;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 18px}
 .dot{display:inline-block;width:14px;height:14px;border-radius:50%;margin-bottom:14px}
 
 .about{display:grid;gap:30px;grid-template-columns:1fr}
@@ -103,8 +106,8 @@ footer{padding:0 0 40px;color:var(--muted);font-size:.9rem}
       <path d="M40 395 C150 380 180 190 290 215 C390 238 360 360 470 310" stroke="#B9B9BF" stroke-width="9" stroke-linecap="round"/>
     </svg>
     <div class="wrap">
-      <h1>Muoviti con noi.</h1>
-      <p>Ginnastica artistica, pilates e attività motorie per bambini, ragazzi e adulti.</p>
+      <h1>Muoviti, divertiti, cresci.</h1>
+      <p>Ginnastica artistica, acrobatica, pilates e fitness a Caponago. Energia, passione, amicizia.</p>
       <a class="btn" href="#contatti">Prova una lezione</a>
       <a class="btn alt" href="#corsi">Scopri i corsi</a>
     </div>
@@ -112,26 +115,20 @@ footer{padding:0 0 40px;color:var(--muted);font-size:.9rem}
 
   <section id="corsi">
     <div class="wrap">
-      <h2>I nostri corsi</h2>
-      <p class="lead">Ogni corso è guidato da istruttori qualificati, in gruppi pensati per età e livello.</p>
+      <h2>Corsi 2026–2027</h2>
+      <p class="lead">Muoviti, divertiti, cresci con noi! Dalla ginnastica per i più piccoli al fitness serale per gli adulti.</p>
       <div class="corsi">
-        <article class="corso">
-          <span class="dot" style="background:var(--red)"></span>
-          <h3>Ginnastica artistica</h3>
-          <p>Corpo libero, trave, parallele e volteggio. Dai primi passi alla preparazione agonistica, con attenzione a tecnica e divertimento.</p>
-        </article>
-        <article class="corso">
-          <span class="dot" style="background:var(--ink)"></span>
-          <h3>Pilates</h3>
-          <p>Lezioni per migliorare postura, mobilità e forza del core. Adatte a chi parte da zero e a chi vuole progredire.</p>
-        </article>
-        <article class="corso">
-          <span class="dot" style="background:var(--grey)"></span>
-          <h3>Attività motorie</h3>
-          <p>Giochi e movimento per i più piccoli, per sviluppare coordinazione ed equilibrio in modo naturale.</p>
-        </article>
-      </div>
-    </div>
+<article class="corso" style="--c:#C8372D"><h3>Ginnastica artistica</h3><ul class="orari"><li><span class="gg">MAR</span><span>17.00–18.00 <small>fino 2ª elem.</small></span></li><li><span class="gg">MAR</span><span>18.00–19.00 <small>dalla 3ª elem. + supercorso</small></span></li><li><span class="gg">MER</span><span>18.00–19.00 <small>supercorso</small></span></li><li><span class="gg">GIO</span><span>17.00–18.00 <small>fino 2ª elem.</small></span></li><li><span class="gg">GIO</span><span>18.00–19.30 <small>dalla 3ª elem.</small></span></li></ul></article>
+<article class="corso" style="--c:#6B2FA0"><h3>Acrobatica</h3><ul class="orari"><li><span class="gg">MER</span><span>17.00–19.00</span></li><li><span class="gg">VEN</span><span>17.00–19.00</span></li><li><span class="gg">SAB</span><span>15.00–17.00</span></li></ul></article>
+<article class="corso" style="--c:#1F4FA8"><h3>Jumping</h3><ul class="orari"><li><span class="gg">MER</span><span>20.00–21.00</span></li></ul></article>
+<article class="corso" style="--c:#B3264F"><h3>Ginnastica dolce</h3><ul class="orari"><li><span class="gg">LUN</span><span>19.00–20.00</span></li><li><span class="gg">MER</span><span>19.00–20.00</span></li></ul></article>
+<article class="corso" style="--c:#3E7D3A"><h3>Pilates</h3><ul class="orari"><li><span class="gg">MAR</span><span>19.00–20.00</span></li><li><span class="gg">VEN</span><span>19.00–20.00</span></li></ul></article>
+<article class="corso" style="--c:#6B2FA0"><h3>Pilates mat</h3><ul class="orari"><li><span class="gg">MER</span><span>19.00–20.00</span></li></ul></article>
+<article class="corso" style="--c:#1F3A7A"><h3>Dynamic gym</h3><ul class="orari"><li><span class="gg">LUN</span><span>20.00–21.00</span></li><li><span class="gg">MER</span><span>20.00–21.00</span></li></ul></article>
+<article class="corso" style="--c:#12847F"><h3>Aero step</h3><ul class="orari"><li><span class="gg">MAR</span><span>20.00–21.00</span></li></ul></article>
+</div>
+<p class="info"><b>Iscrizioni:</b> online o presso la palestra della scuola. <b>Inizio corsi:</b> lunedì 28 settembre 2026.</p>
+</div>
   </section>
 
   <section id="chi-siamo">
@@ -153,17 +150,17 @@ footer{padding:0 0 40px;color:var(--muted);font-size:.9rem}
       <h2>Vieni a trovarci</h2>
       <p class="lead">Scrivici o passa in palestra: la prima lezione di prova è il modo migliore per conoscerci.</p>
       <dl>
-        <div><dt>Indirizzo</dt><dd>Caponago · [via da inserire]</dd></div>
-        <div><dt>Telefono</dt><dd><a href="tel:+390000000000">[Numero da inserire]</a></dd></div>
-        <div><dt>Email</dt><dd><a href="mailto:info@example.it">[Email da inserire]</a></dd></div>
+        <div><dt>Indirizzo</dt><dd>Palestra della scuola, Caponago [via da inserire]</dd></div>
+        <div><dt>Telefono</dt><dd><a href="tel:+393491867879">349 186 7879</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:olimpiacaponago@gmail.com">olimpiacaponago@gmail.com</a></dd></div>
       </dl>
-      <a class="btn" href="mailto:info@example.it?subject=Richiesta%20lezione%20di%20prova">Richiedi una prova</a>
+      <a class="btn" href="mailto:olimpiacaponago@gmail.com?subject=Richiesta%20lezione%20di%20prova">Richiedi una prova</a>
     </section>
   </div>
 </main>
 
 <footer>
-  <div class="wrap">© ASD Olimpia “Emilio Dossena” · Caponago · [P.IVA / C.F. da inserire]</div>
+  <div class="wrap">© ASD Olimpia “Emilio Dossena” · Caponago · C.F./P.IVA [da inserire]</div>
 </footer>
 </body>
 </html>
